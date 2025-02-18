@@ -31,13 +31,13 @@ and alignment with **Well-Architected** best practices.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [**Hybrid Domain-Driven Resource Naming & Tagging Strategy**](#hybrid-domain-driven-resource-naming--tagging-strategy)
+- [**Hybrid Domain-Driven Resource Naming & Tagging Strategy for AWS, GCP and Azure**](#hybrid-domain-driven-resource-naming--tagging-strategy-for-aws-gcp-and-azure)
+  - [Version History](#version-history)
   - [**1. Introduction**](#1-introduction)
   - [**2. Why a Domain-Driven Approach?**](#2-why-a-domain-driven-approach)
   - [**3. Naming Convention**](#3-naming-convention)
     - [**3.1 Short, Domain-Centric Pattern**](#31-short-domain-centric-pattern)
     - [**3.2 Cloud-Specific Adjustments**](#32-cloud-specific-adjustments)
-    - [Tips](#tips)
   - [**4. Tagging / Labeling Strategy**](#4-tagging--labeling-strategy)
     - [**4.1 Recommended Tag/Label Keys**](#41-recommended-taglabel-keys)
     - [**4.2 Policy Enforcement**](#42-policy-enforcement)
@@ -117,7 +117,6 @@ marketing-dev-use1-db-masterdb-01
 ### **3.2 Cloud-Specific Adjustments**
 
 > [!NOTE]
-> Tips
 > - Keep all naming parts as short as possible, by using abbreviations
 >   where possible, for example; `mktg` instead of`marketing` and `prod`
 >   instead of `production`.
