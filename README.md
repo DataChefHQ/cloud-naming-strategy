@@ -116,16 +116,14 @@ marketing-dev-use1-db-masterdb-01
 
 ### **3.2 Cloud-Specific Adjustments**
 
-<aside> ☝
-
-### Tips
-
-- Keep all naming parts as short as possible, by using abbreviations
-  where possible, for example; `mktg` instead of`marketing` and `prod`
-  instead of `production`.
-- Remove white space within a name part, so instead of `master-db`
-write `masterdb`. This is because the `-` symbol is used in our
-consistent naming format.  </aside>
+> [!NOTE]
+> Tips
+> - Keep all naming parts as short as possible, by using abbreviations
+>   where possible, for example; `mktg` instead of`marketing` and `prod`
+>   instead of `production`.
+> - Remove white space within a name part, so instead of `master-db`
+> write `masterdb`. This is because the `-` symbol is used in our
+> consistent naming format.
 
 Not all resources follow a standard naming convention; they vary in
 length, allowed characters, and formatting rules. Here are a few such
@@ -178,14 +176,11 @@ metadata that doesn’t need to appear in the resource name.
 
 ### **4.2 Policy Enforcement**
 
-<aside> ‼️
-
-You can not be assured that all of your resources will be tagged if
-implementing only enforcement. The enforcement strategies listed below
-do not support 100% of that cloud’s resources. See 5.2 for operational
-audits.
-
-</aside>
+> [!IMPORTANT]
+> You can not be assured that all of your resources will be tagged if
+> implementing only enforcement. The enforcement strategies listed below
+> do not support 100% of that cloud’s resources. See 5.2 for operational
+> audits.
 
 - **AWS**: Requires a range of services for an effective strategy;
   Organization SCPs, Organization Tag Policies and AWS Config rules
